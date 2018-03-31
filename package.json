@@ -1,0 +1,54 @@
+{
+  "name": "addthing",
+  "version": "1.0.0",
+  "description": "add a thing",
+  "main": "web.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "jest": {
+    "setupFiles": [
+      "./tests/jestsetup.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "moduleNameMapper": {
+      "^.+\\.(css|scss)$": "identity-obj-proxy"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpaikoff/addthing.git"
+  },
+  "author": "Daniel Paikoff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpaikoff/addthing/issues"
+  },
+  "homepage": "https://github.com/dpaikoff/addthing#readme",
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "webpack": "^4.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-jest": "^22.4.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "jest": "^22.4.3",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13"
+  }
+}
